@@ -1,7 +1,45 @@
-title: Safir
-logo: ""  # You can either provide a URL or leave it empty
-show_downloads: True
+# Site settings
+title: Safir's Portfolio
+description: "Welcome to Safir's personal space. Sharing ideas, projects, and tutorials."
+logo: "https://your-logo-link-here.com/logo.png"  # Replace with your logo URL or remove this line if not needed
+favicon: "https://your-favicon-link.com/favicon.ico"  # Optional, set your favicon link here
+
+# URL Settings
+url: "https://your-username.github.io"  # Change to your GitHub username
+baseurl: "/your-repo-name"  # Add if you're using a project repo; otherwise, leave it as ""
+
+# Theme
 remote_theme: pages-themes/minimal@v0.2.0
 
+# Plugins
 plugins:
-  - jekyll-remote-theme 
+  - jekyll-remote-theme
+  - jekyll-seo-tag  # Adds meta tags for SEO
+  - jekyll-sitemap  # Creates a sitemap.xml file for your site
+  - jekyll-feed     # Provides an RSS feed for your site
+  - jekyll-paginate # Pagination for blog posts
+
+# Social Links (Optional)
+social:
+  twitter: your-twitter-handle
+  github: your-github-handle
+  linkedin: your-linkedin-handle
+
+# Navigation (Optional, customize for your needs)
+navbar:
+  - name: "Home"
+    link: "/"
+  - name: "Projects"
+    link: "/projects"
+  - name: "Blog"
+    link: "/blog"
+  - name: "About"
+    link: "/about"
+  - name: "Contact"
+    link: "/contact"
+
+# Show downloads link
+show_downloads: True
+
+# Additional configurations
+paginate: 5  # Number of blog posts to show per page
