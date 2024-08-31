@@ -1,5 +1,5 @@
 # Site settings
-title: Safir's Portfolio
+title: Safir
 description: "Welcome to Safir's personal space. Sharing ideas, projects, and tutorials."
 logo: "https://your-logo-link-here.com/logo.png"  # Replace with your logo URL or remove this line if not needed
 favicon: "https://your-favicon-link.com/favicon.ico"  # Optional, set your favicon link here
@@ -19,27 +19,6 @@ plugins:
   - jekyll-feed     # Provides an RSS feed for your site
   - jekyll-paginate # Pagination for blog posts
 
-# Social Links (Optional)
-social:
-  twitter: your-twitter-handle
-  github: your-github-handle
-  linkedin: your-linkedin-handle
 
-# Navigation (Optional, customize for your needs)
-navbar:
-  - name: "Home"
-    link: "/"
-  - name: "Projects"
-    link: "/projects"
-  - name: "Blog"
-    link: "/blog"
-  - name: "About"
-    link: "/about"
-  - name: "Contact"
-    link: "/contact"
 
-# Show downloads link
 show_downloads: True
-
-# Additional configurations
-paginate: 5  # Number of blog posts to show per page
