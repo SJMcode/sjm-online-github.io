@@ -1,6 +1,7 @@
 title: Safir
-logo: 
+logo: ""  # You can either provide a URL or leave it empty
 show_downloads: True
 remote_theme: pages-themes/minimal@v0.2.0
-plugin:
-  -jekyll-remote-theme
+
+plugins:
+  - jekyll-remote-theme 
